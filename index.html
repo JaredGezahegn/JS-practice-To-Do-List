@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="todo-app">
+<h1>To-Do List</h1>
+<div class="stat-container">
+    <div class="details">
+        <h3>keep it up</h3>
+        <div id="progressbar">
+            <div id="progress"></div>
+        </div>
+    </div>
+    <div class="stats-number">
+        <p id="numbers">0 / 0</p>
+    </div>
+</div>
+<form class="input-area">
+    <input type="text" id="task-input" placeholder="Add a new task here ....">
+    
+    <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
+
+      
+</form>
+<div class="todos-container">
+    <ul id="task-list"></ul>
+    <img class="empty-image" src="images/emptyList1.png" alt="emptyList image" height="200px" width="250px">
+</div>
+</div>
+</div>
+
+ 
+<footer>
+    <div class="footer-content">
+         
+        <div class="social-links">
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+            <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/yourusername" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+        <p>&copy; 2025 Yared Gezahen. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="todo.js"></script>
+</body>
+</html>
