@@ -2,7 +2,7 @@ To-Do List App
 
 A simple To-Do list web application built with HTML, CSS, and JavaScript.
 
-🔗 **Live Demo:** [View Here]([https://jaredgezahegn.github.io/JS-practice-To-Do-List/])
+🔗 **Live Demo:** [View Here](https://jaredgezahegn.github.io/JS-practice-To-Do-List/)
 
   Features
 - Add tasks
